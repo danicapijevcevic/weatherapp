@@ -1,0 +1,11 @@
+@import "../../../styles/mixins.scss";
+@import "../../../styles/colors.scss";
+
+.weatherapp-icon {
+  width: 100%;
+  @include flex-start-center;
+
+  svg {
+    color: $white;
+  }
+}

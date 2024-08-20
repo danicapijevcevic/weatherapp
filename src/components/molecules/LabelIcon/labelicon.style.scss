@@ -1,0 +1,21 @@
+@import "../../../styles/mixins.scss";
+@import "../../../styles/variables.scss";
+@import "../../../styles/colors.scss";
+
+.weatherapp-labelicon {
+  @include flex-center-center;
+  flex-wrap: wrap;
+  svg {
+    color: $white;
+  }
+  .weatherapp-labelicon-label {
+    width: 100%;
+    color: $white;
+  }
+  &.weatherapp-labelicon-small {
+    width: 50px;
+    .weatherapp-labelicon-label {
+      font-size: 10px;
+    }
+  }
+}

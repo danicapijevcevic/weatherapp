@@ -1,0 +1,90 @@
+export const days = [
+  {
+    name: "Sunday",
+    temperature: "27",
+    currentinfo: null,
+    id: "1",
+    info: [
+      { id: 1, label: "humidity", value: 50 },
+      { id: 2, label: "air pressure", value: 50 },
+      { id: 3, label: "chance of rain", value: 50 },
+      { id: 4, label: "wind speed", value: "50km/h" },
+    ],
+  },
+  {
+    name: "Monday",
+    temperature: "27",
+    currentinfo: null,
+    id: "2",
+    info: [
+      { id: 1, label: "humidity", value: 50 },
+      { id: 2, label: "air pressure", value: 50 },
+      { id: 3, label: "chance of rain", value: 50 },
+      { id: 4, label: "wind speed", value: "50km/h" },
+    ],
+  },
+  {
+    name: "Thuesday",
+    temperature: "27",
+    currentinfo: null,
+    id: "3",
+    info: [
+      { id: 1, label: "humidity", value: 50 },
+      { id: 2, label: "air pressure", value: 50 },
+      { id: 3, label: "chance of rain", value: 50 },
+      { id: 4, label: "wind speed", value: "50km/h" },
+    ],
+  },
+  {
+    name: "Wednesday",
+    temperature: "27",
+    currentinfo: null,
+    id: "4",
+    danas: true,
+    testtt: ["ime", "prezime"],
+    info: [
+      { id: 1, label: "humidity", value: 50 },
+      { id: 2, label: "air pressure", value: 50 },
+      { id: 3, label: "chance of rain", value: 50 },
+      { id: 4, label: "wind speed", value: "50km/h" },
+    ],
+  },
+  {
+    name: "Thursday",
+    temperature: "27",
+    currentinfo: null,
+    id: "5",
+    info: [
+      { id: 1, label: "humidity", value: 50 },
+      { id: 2, label: "air pressure", value: 50 },
+      { id: 3, label: "chance of rain", value: 50 },
+      { id: 4, label: "wind speed", value: "50km/h" },
+    ],
+  },
+  {
+    name: "Friday",
+    temperature: "27",
+    currentinfo: "Fells like 25C",
+    today: true,
+    id: "6",
+    info: [
+      { id: 1, label: "humidity", value: 50 },
+      { id: 2, label: "air pressure", value: 50 },
+      { id: 3, label: "chance of rain", value: 50 },
+      { id: 4, label: "wind speed", value: "50km/h" },
+    ],
+  },
+  {
+    name: "Saturday",
+    temperature: "27",
+    currentinfo: null,
+    id: "7",
+
+    info: [
+      { id: 1, label: "humidity", value: 50 },
+      { id: 2, label: "air pressure", value: 50 },
+      { id: 3, label: "chance of rain", value: 50 },
+      { id: 4, label: "wind speed", value: "50km/h" },
+    ],
+  },
+];

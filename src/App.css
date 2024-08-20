@@ -1,0 +1,8 @@
+.weatherapp-app {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+};

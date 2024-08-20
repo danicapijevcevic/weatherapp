@@ -1,0 +1,12 @@
+@import "../../../styles/mixins.scss";
+
+.weatherapp-currentinfo {
+  width: 100%;
+  @include flex-center-center;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  .weatherapp-currentinfo-label p {
+    width: 132px;
+    margin-left: 8px;
+  }
+}
